@@ -3,6 +3,47 @@
 本教材／ソフトウェアでは、以下のオープンソースソフトウェアを使用しています。
 
 - Python Standard Library（PSF License）
-- smbus（LGPL v2.1）
+- smbus2（MIT License）
+- Adafruit CircuitPython Libraries（MIT License）
+- pygame（LGPL v2.1）
 - gpiozero（BSD 3-Clause License）
-- DFRobot_PAJ7620U2（MIT License, © DFRobot）
+
+一部の機能には自作ライブラリを使用しています。
+
+
+────────────────────────────
+オープンソースソフトウェア（OSS）利用について
+────────────────────────────
+
+本教材／ソフトウェアでは、以下のオープンソースソフトウェアを使用しています。
+これらは各ライセンスの条件に従って利用されています。
+
+■ プログラミング言語・標準ライブラリ
+- Python Standard Library
+  License: Python Software Foundation License (PSF)
+
+■ センサ・ハードウェア制御関連
+- smbus2
+  License: MIT License
+
+- gpiozero
+  License: BSD 3-Clause License
+
+■ Adafruit CircuitPython Libraries
+- board
+- busio
+- adafruit_tsl2561
+  License: MIT License
+  Copyright © Adafruit Industries
+
+■ 画像・描画・UI
+- pygame
+  License: GNU Lesser General Public License v2.1 (LGPL v2.1)
+
+本教材／ソフトウェアでは、pygame を OS 標準環境にて動的に利用しており、
+pygame 自体の再配布・改変は行っていません。
+
+■ その他
+- 本教材には、制作者が作成した独自プログラムおよび設定ファイルが含まれています。
+
+────────────────────────────
