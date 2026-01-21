@@ -1,0 +1,8 @@
+【使用ソフトウェアについて】
+
+本教材／ソフトウェアでは、以下のオープンソースソフトウェアを使用しています。
+
+- Python Standard Library（PSF License）
+- smbus（LGPL v2.1）
+- gpiozero（BSD 3-Clause License）
+- DFRobot_PAJ7620U2（MIT License, © DFRobot）
